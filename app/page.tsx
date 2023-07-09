@@ -7,7 +7,7 @@ import {recentSessions} from "@/constants";
 const Page = () => {
   return (
     <main>
-      <h1>popular Companions</h1>
+      <h1>Popular Companions</h1>
 
         <section className="home-section">
             <CompanionCard
