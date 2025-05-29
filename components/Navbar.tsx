@@ -1,17 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <link href="/">
-                <div>
+            <Link href="/">
+                <div className="flex flex-center gap-2.5 cursor-pointer">
                     <Image src="./images/logo.svg" alt="logo" width={46} height={44}></Image>
                 </div>
-            </link>
+            </Link>
             <div className="flex items-center gap-8">
-                <p>Home</p>
-                <p>Companions</p>
-                <p>Learning Path</p>
+                <p>NavItems</p>
                 <p>Sign In</p>
             </div>
         </nav>
