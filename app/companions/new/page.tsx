@@ -1,7 +1,7 @@
 
-const newCompanion = () => {
+const NewCompanion = () => {
     return (
-        <div>newCompanion</div>
+        <div>NewCompanion</div>
     )
 }
-export default newCompanion
+export default NewCompanion
